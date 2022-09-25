@@ -33,7 +33,6 @@ Portfolio
   width: 1200px;
   padding: 0 15px;
   margin: auto;
-  outline: 1px solid green;
 }
 
 .section {
@@ -76,6 +75,24 @@ img {
   line-height: 1.16;
   text-align: center;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 /* header */
 .main-nav {
   display: flex;
@@ -117,8 +134,6 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  outline: 1px solid rgb(255, 124, 2);
-  background-color: aqua;
 }
 
 .contact-list {
@@ -133,8 +148,6 @@ img {
   color: var(--ptimary-text-color);
   font-weight: 500;
   line-height: 1.14;
-  outline: 1px solid rgb(255, 124, 2);
-  background-color: aqua;
 }
 .site-list .site-link:hover,
 .site-list .site-link:focus,
@@ -147,6 +160,7 @@ img {
 /* site baner */
 .herou {
   background-color: #2f303a;
+  padding: 200px 0;
   text-align: center;
 }
 .herou-titel {
@@ -192,8 +206,6 @@ img {
 
 .benefits-item {
   width: 270px;
-  outline: 1px solid rgb(255, 124, 2);
-  background-color: aqua;
 }
 
 .benefits-item:not(:last-child) {
@@ -206,6 +218,9 @@ img {
 }
 /* what do we do */
 
+.job {
+  padding: 0 0 86px;
+}
 .galery {
   display: flex;
 }
@@ -257,6 +272,7 @@ img {
 /* footer */
 footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 
 .stidio-footer {
@@ -264,12 +280,21 @@ footer {
 }
 
 .contact-address {
+  display: inline-block;
   color: var(--secondary-text-color);
-  /* font-size: 14px; */
   line-height: 1.71;
+  margin-bottom: 9px;
 }
 
-.contact-items {
+.contact {
+  margin-top: 20px;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
@@ -326,8 +351,15 @@ footer {
 .projects-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
 }
+
+.projects-card {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .projects-item:nth-child(3n) {
   margin-right: 0;
 }
