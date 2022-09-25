@@ -17,17 +17,6 @@
 кнопка active #188CE8
 фільт bgc #F5F4FA
 */
-/* 
-WebStudio
-Site baner
-Company benefits
-What do we do
-Our team
-Footer
-*/
-/* 
-Portfolio
- */
 
 .container {
   width: 1200px;
@@ -47,10 +36,12 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+
 .link {
   text-decoration: none;
   font-style: normal;
 }
+
 .list {
   list-style: none;
   margin: 0;
@@ -99,12 +90,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
 }
+
 .studio-header {
   color: var(--titles-text-color);
 }
@@ -143,26 +136,30 @@ header {
 .contact-item + .contact-item {
   margin-left: 50px;
 }
+
 .contact-link {
   display: block;
   color: var(--ptimary-text-color);
   font-weight: 500;
   line-height: 1.14;
 }
+
 .site-list .site-link:hover,
 .site-list .site-link:focus,
 .contact-list a:hover,
 .contact-list a:focus,
-.contact-items:hover,
-.contact-items:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
 }
+
 /* site baner */
 .herou {
   background-color: #2f303a;
   padding: 200px 0;
   text-align: center;
 }
+
 .herou-titel {
   margin: 0 auto 30px;
   color: var(--secondary-text-color);
@@ -173,6 +170,7 @@ header {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+
 .herou-button {
   display: inline-block;
   color: var(--secondary-text-color);
@@ -187,10 +185,12 @@ header {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .herou-button:hover,
 .herou-button:focus {
   background-color: #188ce8;
 }
+
 /* company benefits */
 .benefits {
   display: flex;
@@ -221,12 +221,9 @@ header {
 .job {
   padding: 0 0 86px;
 }
+
 .galery {
   display: flex;
-}
-
-.galery-item img {
-  display: block;
 }
 
 .galery-item:not(:last-child) {
@@ -306,9 +303,11 @@ footer {
   justify-content: center;
   margin-bottom: 50px;
 }
+
 .filter-item:not(:last-child) {
   margin-right: 8px;
 }
+
 .button {
   background-color: #f5f4fa;
   padding: 6px 22px;
