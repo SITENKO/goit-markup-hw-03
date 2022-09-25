@@ -12,43 +12,59 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="container main-nav">
+      <nav class="site-nav">
         <a href="./index.html" class="logo link"
           >Web<span class="studio-header">Studio</span>
         </a>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="site-link link">Студія</a></li>
-          <li>
-            <a href="./portfolio.html" class="site-link link current"
-              >Портфоліо</a
-            >
+        <ul class="site-list list">
+          <li class="site-item">
+            <a href="" class="site-link link current">Студія</a>
           </li>
-          <li><a href="" class="site-link link">Контакти</a></li>
+          <li class="site-item">
+            <a href="./portfolio.html" class="site-link link">Портфоліо</a>
+          </li>
+          <li class="site-item">
+            <a href="" class="site-link link">Контакти</a>
+          </li>
         </ul>
       </nav>
       <ul class="contact-list list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
+        <li class="contact-item">
+          <a href="mailto:info@devstudio.com" class="contact-link link"
             >info@devstudio.com</a
           >
         </li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <li class="contact-item">
+          <a href="tel:+380961111111" class="contact-link link"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <ul class="list">
-          <li><button type="button" class="button">Усі</button></li>
-          <li><button type="button" class="button">Веб-сайти</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
-        </ul>
-        <!-- our projects -->
+      <!-- our projects -->
+      <section class="container">
         <h1 class="section-title">Наші проекти</h1>
-        <ul class="list">
-          <li>
+        <ul class="filter list">
+          <li class="filter-item">
+            <button type="button" class="button">Усі</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="button">Веб-сайти</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="button">Додатки</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="button">Дизайн</button>
+          </li>
+          <li class="filter-item">
+            <button type="button" class="button">Маркетинг</button>
+          </li>
+        </ul>
+        <ul class="projects list">
+          <li class="projects-item">
             <img
               src="./images/technocrat.jpg"
               alt="Ноутбук з відкритою сторінкою сайта"
@@ -57,7 +73,7 @@
             <h3 class="project-title">Технокряк</h3>
             <p class="project-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/poster.jpg"
               alt="Два гравці у баскетбол"
@@ -66,7 +82,7 @@
             <h3 class="project-title">Постер New Orlean vs Golden Star</h3>
             <p class="project-text">Дизайн</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/seafood.jpg"
               alt="Логотип ресторану у вигляді риби"
@@ -75,12 +91,12 @@
             <h3 class="project-title">Ресторан Seafood</h3>
             <p class="project-text">Додаток</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img src="./images/prime.jpg" alt="Накладні наушники" width="370" />
             <h3 class="project-title">Проєкт Prime</h3>
             <p class="project-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/boxes.jpg"
               alt="Дві пакувальні коробки"
@@ -89,7 +105,7 @@
             <h3 class="project-title">Проєкт Boxes</h3>
             <p class="project-text">Додаток</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/inspiration.jpg"
               alt="Моноблок з відкритим сайтом"
@@ -98,7 +114,7 @@
             <h3 class="project-title">Inspiration has no Borders</h3>
             <p class="project-text">Веб-сайт</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/book.jpg"
               alt="Відкрита книга із текстом та зображеннями"
@@ -107,12 +123,12 @@
             <h3 class="project-title">Видання Limited Edition</h3>
             <p class="project-text">Дизайн</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img src="./images/lab.jpg" alt="Лейбл компанії" width="370" />
             <h3 class="project-title">Проєкт LAB</h3>
             <p class="project-text">Маркетинг</p>
           </li>
-          <li>
+          <li class="projects-item">
             <img
               src="./images/business.jpg"
               alt="Ноутбук з відкритою сторінкою сайта"
