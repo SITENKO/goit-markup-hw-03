@@ -85,7 +85,7 @@ header {
 }
 
 /* header */
-.main-nav {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,13 +154,13 @@ header {
 }
 
 /* site baner */
-.herou {
+.hero {
   background-color: #2f303a;
   padding: 200px 0;
   text-align: center;
 }
 
-.herou-titel {
+.hero-titel {
   margin: 0 auto 30px;
   color: var(--secondary-text-color);
   width: 696px;
@@ -171,7 +171,7 @@ header {
   text-transform: uppercase;
 }
 
-.herou-button {
+.hero-button {
   display: inline-block;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
@@ -186,8 +186,8 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.herou-button:hover,
-.herou-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 
@@ -219,7 +219,7 @@ header {
 /* what do we do */
 
 .job {
-  padding: 0 0 86px;
+  padding-top: 0;
 }
 
 .galery {
@@ -251,9 +251,12 @@ header {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-card {
+  padding: 30px 0;
+}
+
 .team-title {
   margin-bottom: 10px;
-  padding-top: 30px;
   color: var(--titles-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -261,13 +264,12 @@ header {
 }
 
 .team-profession {
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
 }
 
 /* footer */
-footer {
+.footer {
   background-color: #2f303a;
   padding: 60px 0;
 }
@@ -280,7 +282,6 @@ footer {
   display: inline-block;
   color: var(--secondary-text-color);
   line-height: 1.71;
-  margin-bottom: 9px;
 }
 
 .contact {
@@ -337,6 +338,7 @@ footer {
 
 .project-title {
   color: var(--titles-text-color);
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
